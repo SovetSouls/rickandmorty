@@ -10,7 +10,6 @@ import '@mdi/font/css/materialdesignicons.css';
 
 import * as components from "vuetify/components";
 import * as directives from 'vuetify/directives';
-import { ru }  from 'vuetify/locale';
 
 const vuetify = createVuetify({
     components, directives,
@@ -20,11 +19,6 @@ const vuetify = createVuetify({
         sets: {
             mdi,
         },
-    },
-    locale: {
-        locale: 'ru',
-        fallback: 'ru',
-        messages: { ru },
     },
 })
 
