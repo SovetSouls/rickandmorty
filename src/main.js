@@ -26,9 +26,6 @@ const vuetify = createVuetify({
         fallback: 'ru',
         messages: { ru },
     },
-    // theme: {
-    //     defaultTheme: 'dark'
-    // }
 })
 
 createApp(App).use(vuetify).mount('#app')
